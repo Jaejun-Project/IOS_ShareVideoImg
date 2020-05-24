@@ -1,9 +1,8 @@
-# IOS Flashcard Application
+# IOS Share Video & Image Application
 
 
 ## Assignment proposal
-Create Flashcard app to help users study and memories technical terms
-
+Upload your images or videos and share with outhers
 
 ## Prerequisites
 
@@ -11,50 +10,53 @@ You will need the following things properly installed on your computer.
 
 * [Git](https://git-scm.com/)
 * [Xcode](https://developer.apple.com/xcode/)
+* [Firebase](https://firebase.google.com/?gclid=CjwKCAjwk6P2BRAIEiwAfVJ0rDt9vtmwmzD4yUgvjZOiDk-7oCdOeMInFFXPbur8doOxwFckJfqQdxoCDi0QAvD_BwE)
 
 ## How my app works:
 My app page contains below pages.
 
-**Introduction**
-
-<img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/Intro.png?raw=true"  width="200" height="400" />
-
-
-**Questions & Answers**
-
+**Login Page**
 
 <p float="left">
-<img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/collectionQues.png?raw=true"  width="200" height="400" />
-<img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/answerColl.png?raw=true"  width="200" height="400" />
+<img src="https://github.com/Jaejun-Project/IOS_ShareVideoImg/blob/master/ios_final_image/login.png?raw=true"  width="200" height="400" />
+<img src="https://github.com/Jaejun-Project/IOS_ShareVideoImg/blob/master/ios_final_image/main.png?raw=true"  width="200" height="400" />
 </p>
 
-**List of Flashcard**
-
-<img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/listOfFlashcards.png?raw=true"  width="200" height="400" />
-
-- You can see all questions and answers from list page
-- You can add or delete questions from this list page
-
-**Delete & Add Flashcard**
+**Playlist & Playlist Detail**
 
 <p float="left">
-<img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/deleteFlashcard.png?raw=true"  width="200" height="400" />
-<img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/addFlashcard.png?raw=true"  width="200" height="400" />
+<img src="https://github.com/Jaejun-Project/IOS_ShareVideoImg/blob/master/ios_final_image/playlist.png?raw=true"  width="200" height="400" />
+<img src="https://github.com/Jaejun-Project/IOS_ShareVideoImg/blob/master/ios_final_image/playDetail.png?raw=true"  width="200" height="400" />
 </p>
 
-- You can delete the flashcard by clicking the "edit" button on top left conner from list page.
-- You can go to add flashcard page by clicking the "+" button on top right conner from list page.
-
-
-**Add to Favorite List & Favorite List Page**
+**Upload of Video & Image**
 
 <p float="left">
-  <img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/addTOfav_ques.png?raw=true"  width="200" height="400" />
-  <img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/favList.png?raw=true"  width="200" height="400" />
+<img src="https://github.com/Jaejun-Project/IOS_ShareVideoImg/blob/master/ios_final_image/upload.png?raw=true"  width="200" height="400" />
+<img src="https://github.com/Jaejun-Project/IOS_ShareVideoImg/blob/master/ios_final_image/uploadImge.png?raw=true"  width="200" height="400" />
 </p>
 
-- Add to favorite list by clicking the star button and make it colored and remove from favorite list by re-clicking the star button and make it not colored
+-  uploaded video or image will display on playlist page
 
+**Video play & Image Detail**
 
+<p float="left">
+<img src="https://github.com/Jaejun-Project/IOS_ShareVideoImg/blob/master/ios_final_image/videoPlay.png?raw=true"  width="200" height="400" />
+<img src="https://github.com/Jaejun-Project/IOS_ShareVideoImg/blob/master/ios_final_image/imageDetail.png?raw=true"  width="200" height="400" />
+</p>
+
+- You can see description of video and image created by owner
+
+**User Info**
+
+<p float="left">
+  <img src="https://github.com/Jaejun-Project/IOS_ShareVideoImg/blob/master/ios_final_image/userInfo.png?raw=true"  width="200" height="400" />
+</p>
+
+- Display user email and logout button
+
+**Database and API**
+-Integrated Firebase cloud service and NoSQL database to store video and image data and user information. 
+-Used AVKit API from Apple Development Document to implement the video player.
 
 
