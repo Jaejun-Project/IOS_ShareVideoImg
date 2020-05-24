@@ -7,7 +7,25 @@
 		<key>Finalp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>88663C882091BA6F00F8D51D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88663C9C2091BA7000F8D51D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88663CA72091BA7000F8D51D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

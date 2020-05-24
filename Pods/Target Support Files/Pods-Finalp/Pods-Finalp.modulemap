@@ -1,0 +1,6 @@
+framework module Pods_Finalp {
+  umbrella header "Pods-Finalp-umbrella.h"
+
+  export *
+  module * { export * }
+}
