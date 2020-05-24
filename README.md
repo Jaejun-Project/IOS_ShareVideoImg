@@ -2,7 +2,7 @@
 
 
 ## Assignment proposal
-Upload your images or videos and share with outhers
+Upload your images or videos and share with others
 
 ## Prerequisites
 
@@ -10,10 +10,9 @@ You will need the following things properly installed on your computer.
 
 * [Git](https://git-scm.com/)
 * [Xcode](https://developer.apple.com/xcode/)
-* [Firebase](https://firebase.google.com/?gclid=CjwKCAjwk6P2BRAIEiwAfVJ0rDt9vtmwmzD4yUgvjZOiDk-7oCdOeMInFFXPbur8doOxwFckJfqQdxoCDi0QAvD_BwE)
 
 ## How my app works:
-My app page contains below pages.
+My app contains below pages.
 
 **Login Page**
 
@@ -36,7 +35,7 @@ My app page contains below pages.
 <img src="https://github.com/Jaejun-Project/IOS_ShareVideoImg/blob/master/ios_final_image/uploadImge.png?raw=true"  width="200" height="400" />
 </p>
 
--  uploaded video or image will display on playlist page
+- Uploaded video or image will display on playlist page
 
 **Video play & Image Detail**
 
@@ -56,7 +55,7 @@ My app page contains below pages.
 - Display user email and logout button
 
 **Database and API**
--Integrated Firebase cloud service and NoSQL database to store video and image data and user information. 
--Used AVKit API from Apple Development Document to implement the video player.
+- Integrated Firebase cloud service and Firebase NoSQL database to store video and image data and user information. 
+- Used AVKit API from Apple Development Document to implement the video player.
 
 
